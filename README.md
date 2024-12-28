@@ -1,5 +1,8 @@
 # Shopify V3 TailwindCSS Boilerplate for Dawn Theme
 
+Version: 1.0.0
+Last Updated: 28/12/2024
+
 This repository serves as a streamlined starting point for developing Shopify themes based on the **Dawn Theme**, enhanced with **TailwindCSS** and **Webpack** for a modern development experience.
 
 ## 🚀 Quick Setup
