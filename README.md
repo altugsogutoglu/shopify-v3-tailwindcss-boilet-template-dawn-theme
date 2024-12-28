@@ -8,6 +8,7 @@ This repository serves as a streamlined starting point for developing Shopify th
 ## 🚀 Quick Setup
 
 This boilerplate includes:
+
 - Shopify's **Dawn Theme** as the base.
 - **TailwindCSS** for rapid UI development.
 - **Webpack** for bundling and asset management.
@@ -15,6 +16,7 @@ This boilerplate includes:
 You can always refer to Shopify's official documentation for theme setup: [Shopify Theme Development Guide](https://shopify.dev/docs/storefronts/themes/getting-started/create)
 
 ## 📂 Folder Structure
+
 ```
 ├── src
 │   ├── index.js       // JavaScript entry point
@@ -29,6 +31,7 @@ You can always refer to Shopify's official documentation for theme setup: [Shopi
 ```
 
 ## 🛠️ Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/altugsogutoglu/shopify-v3-tailwindcss-boilet-template-dawn-theme.git
@@ -42,15 +45,27 @@ You can always refer to Shopify's official documentation for theme setup: [Shopi
 ## 📦 Available Commands
 
 - **Development Mode:**
+
   ```bash
   npm run dev
   ```
+
   Starts Webpack in watch mode for live changes.
 
+  - **Shopify development Mode:**
+
+  ```bash
+  shopify theme dev
+  ```
+
+  Runs the shopify handler.
+
 - **Build for Production:**
+
   ```bash
   npm run build
   ```
+
   Compiles and optimizes assets for production.
 
 - **Start Development Server:**
@@ -60,7 +75,9 @@ You can always refer to Shopify's official documentation for theme setup: [Shopi
   Launches Webpack Dev Server with live reloading.
 
 ## 🎨 Integration in theme.liquid
+
 Ensure these lines are included in your `layout/theme.liquid` file:
+
 ```liquid
 <!-- Adding CSS from /assets folder -->
 {{ 'styles.css' | asset_url | stylesheet_tag }}
@@ -70,20 +87,24 @@ Ensure these lines are included in your `layout/theme.liquid` file:
 ```
 
 ## 🌟 Features
+
 - **Modular Development:** Separate source files for JavaScript and CSS.
 - **Automatic Asset Compilation:** Webpack bundles assets into `/assets`.
 - **TailwindCSS Integration:** Utility-first CSS for rapid design.
 - **Source Maps:** Debug assets efficiently.
 
 ## 📖 Documentation
+
 - [Shopify Theme Development](https://shopify.dev/docs/storefronts/themes/getting-started)
 - [TailwindCSS Documentation](https://tailwindcss.com/docs/installation)
 - [Webpack Documentation](https://webpack.js.org/concepts/)
 
 ## 🤝 Contributing
+
 Feel free to fork this repository, submit issues, or make pull requests to improve the boilerplate.
 
 ## 📜 License
+
 This project is licensed under the MIT License.
 
 Happy coding! 🎉
