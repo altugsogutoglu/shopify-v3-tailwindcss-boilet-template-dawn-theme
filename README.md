@@ -52,7 +52,7 @@ You can always refer to Shopify's official documentation for theme setup: [Shopi
 
   Starts Webpack in watch mode for live changes.
 
-  - **Shopify development Mode:**
+- **Shopify development Mode:**
 
   ```bash
   shopify theme dev
