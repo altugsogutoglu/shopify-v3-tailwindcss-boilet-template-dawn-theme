@@ -85,3 +85,8 @@ This project is licensed under the MIT License.
 
 Happy coding! 🎉
 
+❤️ Made with Love
+
+This project is crafted with care and dedication by Medita. For more information, visit our website: medita.nl
+
+Happy coding! 🎉
