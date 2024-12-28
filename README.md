@@ -28,7 +28,7 @@ You can always refer to Shopify's official documentation for theme setup: [Shopi
 ## 🛠️ Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/altugsogutoglu/shopify-v3-tailwindcss-boilet-template-dawn-theme.git
    cd your-repo
    ```
 2. Install dependencies:
